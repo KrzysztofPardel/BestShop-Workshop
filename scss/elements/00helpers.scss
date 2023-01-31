@@ -1,0 +1,54 @@
+@import "101root";
+/**
+ * Helpers
+ */
+@mixin notebook{
+  @media (max-width: 1352px){
+    @content;
+  }
+}
+
+.container {
+  width: 1352px;
+  margin: 0 auto;
+  @include notebook {
+    width: 100%;
+    padding: 0 15px;
+  }
+}
+
+
+.btn {
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  padding: 16px 65px;
+  border-radius: $button-radius;
+  border: none;
+
+
+  &--primary {
+    background-color: $color-primary;
+    border-radius: $button-radius;
+    box-shadow: 3px 10px 14px $color-primary-shadow;
+  }
+
+  &--redish {
+    background-color: $color-redish;
+  }
+
+  &--green {
+    background-color: $color-green;
+  }
+
+  &--large {
+    padding: 22px 155px;
+  }
+}
+
+.logo {
+  font-family: $font-raleway;
+  font-size: 2rem;
+  font-weight: 300;
+  color: $color-primary;
+}
