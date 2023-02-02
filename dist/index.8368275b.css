@@ -90,7 +90,7 @@ h2 {
   }
 
   .header .menu__btn:checked ~ .menu__toggle span:nth-child(3) {
-    transform: rotate(-45deg)translate(2px, 5px);
+    transform: rotate(-45deg)translate(2px, -5px);
   }
 }
 
@@ -200,7 +200,7 @@ h2 {
   }
 
   .header .menu__btn:checked ~ .menu__toggle span:nth-child(3) {
-    transform: rotate(-45deg)translate(2px, 5px);
+    transform: rotate(-45deg)translate(2px, -5px);
   }
 }
 
@@ -362,7 +362,7 @@ h2 {
   }
 
   .header .menu__btn:checked ~ .menu__toggle span:nth-child(3) {
-    transform: rotate(-45deg)translate(2px, 5px);
+    transform: rotate(-45deg)translate(2px, -5px);
   }
 }
 
